@@ -25,12 +25,12 @@ This is the backend system for the IPO Web Application built using Django and Dj
 ## 📁 Folder Structure
 
 ipo-backend/
-│
-├── ipo/ # IPO app (models, views, serializers, etc.)
-├── ipo_project/ # Django project settings
-├── manage.py # Django management script
-├── db.sqlite3 # SQLite database file
-└── requirements.txt # Python dependencies
+
+-ipo/ # IPO app (models, views, serializers, etc.)
+- ipo_project/ # Django project settings
+- manage.py # Django management script
+- db.sqlite3 # SQLite database file
+- requirements.txt # Python dependencies
 
 ## ⚙️ Setup Instructions
 
@@ -38,12 +38,12 @@ ipo-backend/
    ```bash
    git clone https://github.com/pritikuma/team-K83bluestock.git
    cd team-K83bluestock/ipo-backend
-python -m venv venv
-venv\Scripts\activate     # On Windows
-source venv/bin/activate  # On macOS/Linux
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-Access Admin Panel:
-Open your browser and go to http://127.0.0.1:8000/admin
+-python -m venv venv
+-venv\Scripts\activate     # On Windows
+-source venv/bin/activate  # On macOS/Linux
+-pip install -r requirements.txt
+-python manage.py migrate
+-python manage.py createsuperuser
+-python manage.py runserver
+-Access Admin Panel:
+-Open your browser and go to http://127.0.0.1:8000/admin
