@@ -35,9 +35,9 @@ ipo-backend/
 ## ⚙️ Setup Instructions
 
 1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/pritikuma/team-K83bluestock.git
-   cd team-K83bluestock/ipo-backend
+  
+ -  git clone https://github.com/pritikuma/team-K83bluestock.git
+ - cd team-K83bluestock/ipo-backend
 -python -m venv venv
 -venv\Scripts\activate     # On Windows
 -source venv/bin/activate  # On macOS/Linux
