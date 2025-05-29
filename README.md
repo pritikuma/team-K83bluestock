@@ -14,7 +14,7 @@ This is the backend system for the IPO Web Application built using Django and Dj
 - Current Market Price (CMP) & Current Return
 - Downloadable RHP and DRHP PDFs
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack(for Backend)
 
 - **Language:** Python 3.12.3
 - **Framework:** Django 5.0.6
@@ -22,7 +22,7 @@ This is the backend system for the IPO Web Application built using Django and Dj
 - **Database:** SQLite (default, can be switched to PostgreSQL/MySQL)
 - **Tools:** Git, GitHub, Postman (for API testing)
 
-## 📁 Folder Structure
+## 📁 Folder Structure(Backend)
 
 ipo-backend/
 
@@ -32,7 +32,7 @@ ipo-backend/
 - db.sqlite3 # SQLite database file
 - requirements.txt # Python dependencies
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions(Backend)
 
 1. **Clone the repo**:
   
