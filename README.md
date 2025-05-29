@@ -36,14 +36,14 @@ ipo-backend/
 
 1. **Clone the repo**:
   
- -  git clone https://github.com/pritikuma/team-K83bluestock.git
+ - git clone https://github.com/pritikuma/team-K83bluestock.git
  - cd team-K83bluestock/ipo-backend
--python -m venv venv
--venv\Scripts\activate     # On Windows
--source venv/bin/activate  # On macOS/Linux
--pip install -r requirements.txt
--python manage.py migrate
--python manage.py createsuperuser
--python manage.py runserver
--Access Admin Panel:
--Open your browser and go to http://127.0.0.1:8000/admin
+ -python -m venv venv
+ -venv\Scripts\activate      On Windows
+ -source venv/bin/activate   On macOS/Linux
+ -pip install -r requirements.txt
+ -python manage.py migrate
+ -python manage.py createsuperuser
+ -python manage.py runserver
+ -Access Admin Panel:
+ -Open your browser and go to http://127.0.0.1:8000/admin
