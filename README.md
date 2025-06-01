@@ -1,3 +1,34 @@
+# IPO Frontend – Team K83 Bluestock
+
+This is the frontend of the IPO Web Application. It displays IPO-related information to the public, including key details like price band, opening and closing dates, listing gain, CMP, and downloadable PDFs.
+
+## 🚀 Features
+
+- Displays real-time IPO information
+- Clean, responsive UI
+- Fetches data from Django REST API
+- Downloadable RHP & DRHP PDFs
+- Listing gain and current return indicators
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React.js
+- **HTTP Client:** Axios or Fetch API
+- **Styling:** CSS / TailwindCSS / Bootstrap (based on team choice)
+- **API Integration:** Django REST Framework backend
+
+## 💻 Running the Project
+
+1. **Clone the repository**
+   ```bash
+   git clone <frontend-repo-url>
+   cd ipo-frontend
+## install dependencies   
+   - npm install
+## Start the development server
+  -npm start
+##
+
 # IPO Backend – Team K83 Bluestock
 
 This is the backend system for the IPO Web Application built using Django and Django REST Framework. It serves IPO-related data through RESTful APIs and is designed to be integrated into the Bluestock website/app as well as client apps.
